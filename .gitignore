@@ -1,0 +1,22 @@
+# node modules
+node_modules
+
+# MacOS desktop services store
+.DS_Store
+
+# Log files
+*.log
+
+# Editors
+.vscode
+
+pids
+logs
+npm-debug.log
+coverage/
+run
+dist
+.nyc_output
+.basement
+config.local.js
+basement_dist

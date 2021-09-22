@@ -8,60 +8,48 @@
         v-if="data.heroImage"
         :src="$withBase(data.heroImage)"
         :alt="data.heroAlt || 'hero'"
-      >
-
-      <h1
-        v-if="data.heroText !== null"
-        id="main-title"
-      >
+      />
+      <h1 v-if="data.heroText !== null" id="main-title">
         {{ data.heroText || $title || 'Hello' }}
       </h1>
 
-      <p
-        v-if="data.tagline !== null"
-        class="description"
-      >
+      <p v-if="data.tagline !== null" class="description">
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
       </p>
 
-      <p
-        v-if="data.actionText && data.actionLink"
-        class="action"
-      >
-        <NavLink
-          class="action-button"
-          :item="actionLink"
-        />
+      <p v-if="data.actionText && data.actionLink" class="action">
+        <NavLink class="action-button" :item="actionLink" />
       </p>
     </header>
 
-    <div
-      v-if="data.features && data.features.length"
-      class="features"
-    >
-      <div
+    <div v-if="data.features && data.features.length" class="features">
+      <a
+        :href="feature.link"
         v-for="(feature, index) in data.features"
         :key="index"
         class="feature"
       >
         <h2>{{ feature.title }}</h2>
         <p>{{ feature.details }}</p>
-      </div>
+      </a>
     </div>
 
     <Content class="theme-default-content custom" />
 
-    <div
+    <a
       v-if="data.footer"
+      :href="data.link"
+      target="_blank"
+      rel="noopener noreferrer"
       class="footer"
     >
       {{ data.footer }}
-    </div>
+    </a>
   </main>
 </template>
 
 <script>
-import NavLink from '@theme/components/NavLink.vue'
+import NavLink from '@theme/components/NavLink.vue';
 
 export default {
   name: 'Home',
@@ -69,18 +57,18 @@ export default {
   components: { NavLink },
 
   computed: {
-    data () {
-      return this.$page.frontmatter
+    data() {
+      return this.$page.frontmatter;
     },
 
-    actionLink () {
+    actionLink() {
       return {
         link: this.data.actionLink,
-        text: this.data.actionText
-      }
-    }
-  }
-}
+        text: this.data.actionText,
+      };
+    },
+  },
+};
 </script>
 
 <style lang="stylus">
@@ -108,17 +96,16 @@ export default {
     .action-button
       display inline-block
       font-size 1.2rem
-      color #fff
-      background-color $accentColor
+      color $textColor
       padding 0.8rem 1.6rem
       border-radius 50%
+      border 5px solid $yellow
       transition background-color .1s ease
       box-sizing border-box
-      border-bottom 1px solid darken($accentColor, 10%)
       &:hover
-        background-color lighten($accentColor, 10%)
+        transform: translate(0, -3px);
   .features
-    border-top 1px solid $borderColor
+    border-top 3px solid $beige
     padding 1.2rem 0
     margin-top 2.5rem
     display flex
@@ -139,10 +126,11 @@ export default {
     p
       color lighten($textColor, 25%)
   .footer
+    display block
     padding 2.5rem
-    border-top 1px solid $borderColor
+    border-top 3px solid $beige
     text-align center
-    color lighten($textColor, 25%)
+    color lighten($textColor, 45%)
 
 @media (max-width: $MQMobile)
   .home

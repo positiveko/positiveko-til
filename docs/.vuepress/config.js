@@ -1,4 +1,5 @@
-const { description } = require('../../package')
+const { description } = require('../../package');
+const moment = require('moment');
 
 module.exports = {
   /**
@@ -16,9 +17,12 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#FF9076' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    [
+      'meta',
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
+    ],
   ],
 
   /**
@@ -31,33 +35,70 @@ module.exports = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
+    lastUpdated: 'Last Updated',
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'React',
+        link: '/react/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'JS&TS',
+        link: '/js/',
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
+        text: 'CS',
+        link: '/cs/',
+      },
+      {
+        text: 'etc',
+        link: '/etc/',
+      },
+      {
+        text: 'Blog',
+        link: 'https://positiveko.netlify.app',
+      },
+      {
+        text: 'GitHub',
+        link: 'https://github.com/positiveko',
+      },
     ],
     sidebar: {
-      '/guide/': [
+      '/react/': [
         {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
+          title: 'React',
+          collapsable: true,
+          children: ['', 'using-vue'],
+        },
       ],
-    }
+      '/js/': [
+        {
+          title: 'JavaScript & TypeScript',
+          collapsable: true,
+          children: [''],
+        },
+      ],
+      '/cs/': [
+        {
+          title: 'Computer Science',
+          collapsable: true,
+          children: ['', 'using-vue'],
+        },
+      ],
+      '/etc/': [
+        {
+          title: 'etc',
+          collapsable: true,
+          children: ['', 'using-vue'],
+        },
+      ],
+      '/review/': [
+        {
+          title: 'Review',
+          collapsable: true,
+          children: [''],
+        },
+      ],
+    },
   },
 
   /**
@@ -66,5 +107,15 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
-}
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          const moment = require('moment');
+          moment.locale(lang);
+          return moment(timestamp).fromNow();
+        },
+      },
+    ],
+  ],
+};

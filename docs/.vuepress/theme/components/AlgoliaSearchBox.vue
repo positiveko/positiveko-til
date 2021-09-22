@@ -8,7 +8,7 @@
       id="algolia-search-input"
       class="search-query"
       :placeholder="placeholder"
-    >
+    />
   </form>
 </template>
 
@@ -18,62 +18,67 @@ export default {
 
   props: ['options'],
 
-  data () {
+  data() {
     return {
-      placeholder: undefined
-    }
+      placeholder: undefined,
+    };
   },
 
   watch: {
-    $lang (newValue) {
-      this.update(this.options, newValue)
+    $lang(newValue) {
+      this.update(this.options, newValue);
     },
 
-    options (newValue) {
-      this.update(newValue, this.$lang)
-    }
+    options(newValue) {
+      this.update(newValue, this.$lang);
+    },
   },
 
-  mounted () {
-    this.initialize(this.options, this.$lang)
-    this.placeholder = this.$site.themeConfig.searchPlaceholder || ''
+  mounted() {
+    this.initialize(this.options, this.$lang);
+    this.placeholder = this.$site.themeConfig.searchPlaceholder || '';
   },
 
   methods: {
-    initialize (userOptions, lang) {
+    initialize(userOptions, lang) {
       Promise.all([
-        import(/* webpackChunkName: "docsearch" */ 'docsearch.js/dist/cdn/docsearch.min.js'),
-        import(/* webpackChunkName: "docsearch" */ 'docsearch.js/dist/cdn/docsearch.min.css')
+        import(
+          /* webpackChunkName: "docsearch" */ 'docsearch.js/dist/cdn/docsearch.min.js'
+        ),
+        import(
+          /* webpackChunkName: "docsearch" */ 'docsearch.js/dist/cdn/docsearch.min.css'
+        ),
       ]).then(([docsearch]) => {
-        docsearch = docsearch.default
-        const { algoliaOptions = {}} = userOptions
-        docsearch(Object.assign(
-          {},
-          userOptions,
-          {
+        docsearch = docsearch.default;
+        const { algoliaOptions = {} } = userOptions;
+        docsearch(
+          Object.assign({}, userOptions, {
             inputSelector: '#algolia-search-input',
             // #697 Make docsearch work well at i18n mode.
             algoliaOptions: {
               ...algoliaOptions,
-              facetFilters: [`lang:${lang}`].concat(algoliaOptions.facetFilters || [])
+              facetFilters: [`lang:${lang}`].concat(
+                algoliaOptions.facetFilters || []
+              ),
             },
             handleSelected: (input, event, suggestion) => {
-              const { pathname, hash } = new URL(suggestion.url)
-              const routepath = pathname.replace(this.$site.base, '/')
-              const _hash = decodeURIComponent(hash)
-              this.$router.push(`${routepath}${_hash}`)
-            }
-          }
-        ))
-      })
+              const { pathname, hash } = new URL(suggestion.url);
+              const routepath = pathname.replace(this.$site.base, '/');
+              const _hash = decodeURIComponent(hash);
+              this.$router.push(`${routepath}${_hash}`);
+            },
+          })
+        );
+      });
     },
 
-    update (options, lang) {
-      this.$el.innerHTML = '<input id="algolia-search-input" class="search-query">'
-      this.initialize(options, lang)
-    }
-  }
-}
+    update(options, lang) {
+      this.$el.innerHTML =
+        '<input id="algolia-search-input" class="search-query">';
+      this.initialize(options, lang);
+    },
+  },
+};
 </script>
 
 <style lang="stylus">
@@ -84,10 +89,10 @@ export default {
     line-height normal
     .ds-dropdown-menu
       background-color #fff
-      border 1px solid #999
+      border 1px solid $borderColor
       border-radius 4px
       font-size 16px
-      margin 6px 0 0
+      margin 10px 0 0
       padding 4px
       text-align left
       &:before
@@ -168,5 +173,4 @@ export default {
       width 5px
       margin -3px 3px 0
       vertical-align middle
-
 </style>

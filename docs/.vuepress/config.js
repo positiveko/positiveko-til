@@ -23,6 +23,42 @@ module.exports = {
       'meta',
       { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
     ],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/assets/favicons/apple-touch-icon.png',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/assets/favicons/favicon-32x32.png',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/assets/favicons/favicon-16x16.png',
+      },
+    ],
+    ['link', { rel: 'manifest', href: '/assets/favicons/site.webmanifest' }],
+    ['link', { rel: 'shortcut icon', href: '/assets/favicons/favicon.ico' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#FF9076' }],
+    [
+      'meta',
+      {
+        name: 'msapplication-config',
+        content: '/assets/favicons/browserconfig.xml',
+      },
+    ],
   ],
 
   /**
@@ -36,13 +72,14 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: 'Last Updated',
+    logo: '/assets/favicons/ms-icon-70x70.png',
     nav: [
       {
         text: 'React',
         link: '/react/',
       },
       {
-        text: 'JS&TS',
+        text: 'JS & TS',
         link: '/js/',
       },
       {
@@ -50,8 +87,16 @@ module.exports = {
         link: '/cs/',
       },
       {
-        text: 'etc',
+        text: 'Etc.',
         link: '/etc/',
+      },
+      {
+        text: 'Review',
+        link: '/review/',
+      },
+      {
+        text: 'About Me',
+        link: '/aboutme/',
       },
       {
         text: 'Blog',
@@ -86,7 +131,7 @@ module.exports = {
       ],
       '/etc/': [
         {
-          title: 'etc',
+          title: 'Etc.',
           collapsable: true,
           children: ['', 'using-vue'],
         },

@@ -1,9 +1,3 @@
----
-tags:
-  - configuration
-  - theme
-  - indexing
----
 # Config
 
 ## foo

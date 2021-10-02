@@ -1,5 +1,6 @@
 const { description } = require('../../package');
 const moment = require('moment');
+const CONST = require('./const');
 
 module.exports = {
   /**
@@ -10,7 +11,6 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
   description: description,
-
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
@@ -67,28 +67,14 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
     editLinks: false,
     docsDir: '',
-    editLinkText: '',
     lastUpdated: 'Last Updated',
     logo: '/assets/favicons/ms-icon-70x70.png',
     nav: [
       {
-        text: 'React',
-        link: '/react/',
-      },
-      {
-        text: 'JS & TS',
-        link: '/js/',
-      },
-      {
-        text: 'CS',
-        link: '/cs/',
-      },
-      {
-        text: 'Etc.',
-        link: '/etc/',
+        text: 'TIL',
+        link: '/til/',
       },
       {
         text: 'Review',
@@ -108,39 +94,33 @@ module.exports = {
       },
     ],
     sidebar: {
-      '/react/': [
+      '/til/': [
         {
           title: 'React',
           collapsable: true,
-          children: ['', 'using-vue'],
+          children: CONST.ReactList,
         },
-      ],
-      '/js/': [
         {
           title: 'JavaScript & TypeScript',
           collapsable: true,
-          children: [''],
+          children: CONST.JsTsList,
         },
-      ],
-      '/cs/': [
         {
           title: 'Computer Science',
           collapsable: true,
-          children: ['', 'using-vue'],
+          children: CONST.CsList,
         },
-      ],
-      '/etc/': [
         {
           title: 'Etc.',
           collapsable: true,
-          children: ['', 'using-vue'],
+          children: CONST.EtcList,
         },
       ],
       '/review/': [
         {
           title: 'Review',
-          collapsable: true,
-          children: [''],
+          children: CONST.ReviewList,
+          collapsable: false,
         },
       ],
     },

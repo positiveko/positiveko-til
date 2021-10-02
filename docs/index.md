@@ -3,20 +3,20 @@ home: true
 heroImage: /assets/images/til-logo-512.png
 tagline: 배운 것을 짧게 기록합니다
 actionText: ✨ START ✨
-actionLink: /react/
+actionLink: /til/
 features:
   - title: React
     details: 🔑 React.js 문제 해결 사례와 도움이 되었던 내용을 정리합니다
-    link: /react/
+    link: /til/
   - title: JS & TS
     details: 📕 JavaScript 및 TypeScript에 대한 내용을 담습니다
-    link: /js/
+    link: /til/
   - title: CS
     details: 💻 Computer Science에 대해 공부합니다
-    link: /cs/
+    link: /til/
   - title: Etc.
     details: 📌 기타 공부
-    link: /etc/
+    link: /til/
   - title: Review
     details: ⛴ 격월로 회고를 남깁니다
     link: /review/

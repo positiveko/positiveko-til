@@ -7,16 +7,16 @@ actionLink: /til/
 features:
   - title: React
     details: 🔑 React.js 문제 해결 사례와 도움이 되었던 내용을 정리합니다
-    link: /til/
+    link: /til/react/react.html
   - title: JS & TS
     details: 📕 JavaScript 및 TypeScript에 대한 내용을 담습니다
-    link: /til/
+    link: /til/js/js.html
   - title: CS
     details: 💻 Computer Science에 대해 공부합니다
-    link: /til/
+    link: /til/cs/cs.html
   - title: Etc.
     details: 📌 기타 공부
-    link: /til/
+    link: /til/etc/clean-code.html
   - title: Review
     details: ⛴ 격월로 회고를 남깁니다
     link: /review/

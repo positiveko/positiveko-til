@@ -1,5 +1,7 @@
 exports.ReactList = ['react/react'];
 
+exports.ReactNativeList = ['react-native/react-native'];
+
 exports.JsTsList = ['js/js'];
 
 exports.CsList = ['cs/cs'];

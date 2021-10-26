@@ -78,7 +78,7 @@ module.exports = {
       },
       {
         text: 'Review',
-        link: '/review/',
+        link: '/review/2109.html',
       },
       {
         text: 'About Me',
@@ -99,6 +99,11 @@ module.exports = {
           title: 'React',
           collapsable: true,
           children: CONST.ReactList,
+        },
+        {
+          title: 'React Native',
+          collapsable: true,
+          children: CONST.ReactNativeList,
         },
         {
           title: 'JavaScript & TypeScript',

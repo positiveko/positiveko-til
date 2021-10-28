@@ -1,4 +1,4 @@
-# npx react-native run-android 시 "error Failed to install the app. Make sure you have an Android emulator running or a device connected." 에러 해결
+# 에러 해결🔑 npx react-native run-android 시 "error Failed to install the app. Make sure you have an Android emulator running or a device connected."
 
 Android Studio를 설치 후 한번도 emulator를 사용하지 않았을 경우 발생하는 에러였다.
 

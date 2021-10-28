@@ -25,7 +25,7 @@
 ## 2. ios/.xcworkspace 파일 삭제하기
 
 이 .xcworkspace파일은 Xcode 프로젝트 파일인데, pod install을 할 때 재생성된다.
-자세한 사항은 (스택오버플로우: Is the project.xcworkspace file important?)[https://stackoverflow.com/questions/10956312/is-the-project-xcworkspace-file-important] 참고.
+자세한 사항은 [스택오버플로우: Is the project.xcworkspace file important?](https://stackoverflow.com/questions/10956312/is-the-project-xcworkspace-file-important) 참고.
 
 ## 3. Podfile.lock 삭제하기
 

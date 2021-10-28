@@ -13,4 +13,3 @@ new Date("2021-10-28").toLocaleDateString("ko") // '2021. 10. 28.'
 new Date("2021-10-28").toLocaleDateString('ko', {month: 'long'}) // '10월'
 new Date("2021-10-28").toLocaleDateString('ko', {year: 'numeric', month: 'long', day: 'numeric'}) // '2021년 10월 28일'
 ```
-

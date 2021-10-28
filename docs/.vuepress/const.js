@@ -2,7 +2,7 @@ exports.ReactList = ['react/react'];
 
 exports.ReactNativeList = ['react-native/react-native'];
 
-exports.JsTsList = ['js/js'];
+exports.JsTsList = ['js/js', 'js/interface-kick'];
 
 exports.CsList = ['cs/cs'];
 

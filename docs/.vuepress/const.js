@@ -2,7 +2,7 @@ exports.ReactList = ['react/react'];
 
 exports.ReactNativeList = ['react-native/react-native', 'react-native/error65'];
 
-exports.JsTsList = ['js/js', 'js/interface-kick'];
+exports.JsTsList = ['js/js', 'js/interface-kick', 'js/catch-error-type'];
 
 exports.CsList = ['cs/cs'];
 

@@ -1,6 +1,10 @@
 exports.ReactList = ['react/react'];
 
-exports.ReactNativeList = ['react-native/react-native', 'react-native/error65'];
+exports.ReactNativeList = [
+  'react-native/react-native',
+  'react-native/error65',
+  'react-native/flatlist-render-item-type',
+];
 
 exports.JsTsList = ['js/js', 'js/interface-kick', 'js/catch-error-type'];
 

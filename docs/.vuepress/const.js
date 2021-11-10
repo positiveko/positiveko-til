@@ -6,7 +6,12 @@ exports.ReactNativeList = [
   'react-native/flatlist-render-item-type',
 ];
 
-exports.JsTsList = ['js/js', 'js/interface-kick', 'js/catch-error-type'];
+exports.JsTsList = [
+  'js/closer',
+  'js/js',
+  'js/interface-kick',
+  'js/catch-error-type',
+];
 
 exports.CsList = ['cs/cs'];
 

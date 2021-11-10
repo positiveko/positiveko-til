@@ -13,7 +13,7 @@ features:
     link: /til/react-native/react-native.html
   - title: JS & TS
     details: 📕 JavaScript 및 TypeScript에 대한 내용을 담습니다
-    link: /til/js/js.html
+    link: /til/js/closer.html
   - title: CS
     details: 💻 Computer Science에 대해 공부합니다
     link: /til/cs/cs.html

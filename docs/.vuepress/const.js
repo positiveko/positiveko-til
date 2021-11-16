@@ -9,6 +9,7 @@ exports.ReactNativeList = [
 exports.JsTsList = [
   'js/closer',
   'js/variable',
+  'js/function',
   'js/js',
   'js/interface-kick',
   'js/catch-error-type',

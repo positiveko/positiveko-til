@@ -13,6 +13,7 @@ exports.JsTsList = [
   'js/js',
   'js/interface-kick',
   'js/catch-error-type',
+  'js/declaration-definition'
 ];
 
 exports.CsList = ['cs/browser-rendering'];

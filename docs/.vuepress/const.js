@@ -15,7 +15,7 @@ exports.JsTsList = [
   'js/catch-error-type',
 ];
 
-exports.CsList = ['cs/cs'];
+exports.CsList = ['cs/browser-rendering'];
 
 exports.EtcList = ['etc/clean-code', 'etc/code-of-performance'];
 

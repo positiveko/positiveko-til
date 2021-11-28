@@ -16,7 +16,7 @@ features:
     link: /til/js/closer.html
   - title: CS
     details: 💻 Computer Science에 대해 공부합니다
-    link: /til/cs/cs.html
+    link: /til/cs/browser-rendering.html
   - title: Etc.
     details: 📌 기타 공부
     link: /til/etc/clean-code.html

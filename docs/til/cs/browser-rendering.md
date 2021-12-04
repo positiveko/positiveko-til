@@ -1,3 +1,5 @@
+# 브라우저 렌더링 과정
+
 ![IMG_0287](https://user-images.githubusercontent.com/69200669/143768199-56fc523c-d712-4443-89ec-c684f920dad8.jpg)
 ![IMG_0288](https://user-images.githubusercontent.com/69200669/143768197-b705ce7e-a378-48f9-a627-35a1dd064eb5.jpg)
 ![IMG_0289](https://user-images.githubusercontent.com/69200669/143768195-062d5966-1799-4ac0-a59e-bf8097733a04.jpg)

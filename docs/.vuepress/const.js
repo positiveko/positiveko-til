@@ -1,4 +1,4 @@
-exports.ReactList = ['react/react'];
+exports.ReactList = ['react/react', 'react/safari-border-radius'];
 
 exports.ReactNativeList = [
   'react-native/react-native',
@@ -13,7 +13,7 @@ exports.JsTsList = [
   'js/js',
   'js/interface-kick',
   'js/catch-error-type',
-  'js/declaration-definition'
+  'js/declaration-definition',
 ];
 
 exports.CsList = ['cs/browser-rendering'];

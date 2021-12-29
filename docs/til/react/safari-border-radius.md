@@ -1,4 +1,4 @@
-# Safari 사파리에서 overflow: hidden, border-radius 에러 해결
+# 에러 해결🔑 Safari 사파리에서 overflow: hidden, border-radius 에러 해결
 
 크롬은 괜찮은데, 사파리에서 `border-radius`를 주고 `overflow: hidden`을 준 경우
 border-radius 적용이 되지 않는 에러가 발생한다. <br />

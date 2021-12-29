@@ -1,4 +1,4 @@
-# Next.js next export 배포 시 image loader 에러
+# 에러 해결🔑 Next.js next export 배포 시 image loader 에러
 
 Next.js 프로젝트 결과물을 S3로 배포하던 중 image loader에서 다음과 같은 에러가 발생했다.
 

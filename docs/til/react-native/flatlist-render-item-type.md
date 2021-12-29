@@ -1,4 +1,4 @@
-# Styled Component로 FlatLst 사용 시 renderItem type unknown 에러
+# 에러 해결🔑 Styled Component로 FlatLst 사용 시 renderItem type unknown 에러
 
 FlatList에 타입이 정의된 data를 넘겨주었음에도 불구하고,
 renderItem에 타입이 unknown으로 나오는 에러가 있었다.

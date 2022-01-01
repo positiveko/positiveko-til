@@ -14,7 +14,8 @@ exports.JsTsList = [
   'js/interface-kick',
   'js/catch-error-type',
   'js/declaration-definition',
-  'js/two-dimensional-array'
+  'js/two-dimensional-array',
+  'js/prototype'
 ];
 
 exports.CsList = ['cs/browser-rendering'];

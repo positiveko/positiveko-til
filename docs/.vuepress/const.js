@@ -15,7 +15,9 @@ exports.JsTsList = [
   'js/catch-error-type',
   'js/declaration-definition',
   'js/two-dimensional-array',
-  'js/prototype'
+  'js/prototype',
+  'js/parameter-argument',
+  'js/call-by-value'
 ];
 
 exports.CsList = ['cs/browser-rendering'];

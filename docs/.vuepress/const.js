@@ -7,6 +7,8 @@ exports.ReactNativeList = [
 ];
 
 exports.JsTsList = [
+  'js/202201',
+  'js/call-by-value',
   'js/closer',
   'js/variable',
   'js/function',
@@ -16,9 +18,8 @@ exports.JsTsList = [
   'js/declaration-definition',
   'js/two-dimensional-array',
   'js/prototype',
-  'js/parameter-argument',
-  'js/call-by-value',
   'js/type-of-events',
+  'js/event-capturing-bubbling',
 ];
 
 exports.CsList = ['cs/browser-rendering'];

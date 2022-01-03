@@ -18,7 +18,7 @@ exports.JsTsList = [
   'js/prototype',
   'js/parameter-argument',
   'js/call-by-value',
-  'js/event-type'
+  'js/type-of-events',
 ];
 
 exports.CsList = ['cs/browser-rendering'];

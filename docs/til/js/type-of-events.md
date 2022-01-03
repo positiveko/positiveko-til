@@ -9,10 +9,10 @@
 | mousedown  | 버튼 눌렀을 때  |
 | mouseup  | 누르고 있던 버튼을 놓았을 때  |
 | mousemove  | 커서를 움직일 때  |
-| mouseleave  |  HTML 요소 안으로 이동했을 때 (버블링 O)|
 | mouseout  |  HTML 요소 밖으로 이동했을 때 (버블링 O) |
-| mouseover  | HTML 요소 안으로 이동했을 때 (버블링 X)  |
-| mouseout  |  HTML 요소 밖으로 이동했을 때 (버블링 X) |
+| mouseover  | HTML 요소 안으로 이동했을 때 (버블링 O)  |
+| mouseenter  |  HTML 요소 안으로 이동했을 때 (버블링 X)|
+| mouseleave  |  HTML 요소 밖으로 이동했을 때 (버블링 X) |
 
 ## 키보드 이벤트
 | 이벤트 타입  |  이벤트 발생 시점 |

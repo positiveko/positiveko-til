@@ -1,3 +1,5 @@
+exports['2022List'] = ['2022/202201'];
+
 exports.ReactList = ['react/react', 'react/safari-border-radius'];
 
 exports.ReactNativeList = [
@@ -7,7 +9,6 @@ exports.ReactNativeList = [
 ];
 
 exports.JsTsList = [
-  'js/202201',
   'js/call-by-value',
   'js/closer',
   'js/variable',

@@ -74,19 +74,19 @@ module.exports = {
     nav: [
       {
         text: 'TIL',
-        link: '/til/',
+        link: '/til/2022/202201',
       },
-      {
-        text: 'Review',
-        link: '/review/2109.html',
-      },
+      // {
+      //   text: 'Review',
+      //   link: '/review/2022.html',
+      // },
       {
         text: 'About Me',
         link: '/aboutme/',
       },
       {
         text: 'Blog',
-        link: 'https://positiveko.netlify.app',
+        link: 'https://velog.io/@edie_ko',
       },
       {
         text: 'GitHub',
@@ -95,6 +95,11 @@ module.exports = {
     ],
     sidebar: {
       '/til/': [
+        {
+          title: '2022',
+          collapsable: true,
+          children: CONST['2022List'],
+        },
         {
           title: 'React',
           collapsable: true,

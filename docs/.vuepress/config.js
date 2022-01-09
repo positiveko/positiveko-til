@@ -76,10 +76,6 @@ module.exports = {
         text: 'TIL',
         link: '/til/2022/202201',
       },
-      // {
-      //   text: 'Review',
-      //   link: '/review/2022.html',
-      // },
       {
         text: 'About Me',
         link: '/aboutme/',

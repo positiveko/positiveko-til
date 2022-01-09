@@ -23,9 +23,6 @@ features:
   - title: Etc.
     details: 📌 기타 공부
     link: /til/etc/clean-code.html
-  # - title: Review
-  #   details: ⛴ 격월로 회고를 남깁니다
-  #   link: /review/2022.html
   - title: About Me
     details: 😇 작성자 소개입니다
     link: /aboutme/

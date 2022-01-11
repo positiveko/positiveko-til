@@ -23,7 +23,12 @@ exports.JsTsList = [
   'js/event-capturing-bubbling',
 ];
 
-exports.CsList = ['cs/browser-rendering', 'cs/array', 'cs/stack-queue'];
+exports.CsList = [
+  'cs/hashtable',
+  'cs/array',
+  'cs/stack-queue',
+  'cs/browser-rendering',
+];
 
 exports.EtcList = [
   'etc/clean-code',

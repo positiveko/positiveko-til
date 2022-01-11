@@ -25,6 +25,8 @@ exports.JsTsList = [
 
 exports.CsList = ['cs/browser-rendering'];
 
-exports.EtcList = ['etc/clean-code', 'etc/code-of-performance', 'etc/refactoring'];
-
-exports.ReviewList = ['../review/2109'];
+exports.EtcList = [
+  'etc/clean-code',
+  'etc/code-of-performance',
+  'etc/refactoring',
+];

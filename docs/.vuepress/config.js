@@ -122,13 +122,6 @@ module.exports = {
           children: CONST.EtcList,
         },
       ],
-      '/review/': [
-        {
-          title: 'Review',
-          children: CONST.ReviewList,
-          collapsable: false,
-        },
-      ],
     },
   },
 

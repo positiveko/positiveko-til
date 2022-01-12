@@ -1,6 +1,6 @@
 # positiveko-til
 ### ✏️Today I Learned 배운 것을 짧게 기록합니다
-- 주소: [velog.io/@edie_ko](https://velog.io/@edie_ko)
+- 주소: [velog.io/@edie_ko](https://positiveko-til.vercel.app/)
 - 제작: Vuepress (^1.5.3)
 - 배포: Vercel
 

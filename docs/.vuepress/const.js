@@ -10,6 +10,7 @@ exports.ReactNativeList = [
 
 exports.JsTsList = [
   'js/typescript-design-goals',
+  'js/iterable',
   'js/call-by-value',
   'js/closer',
   'js/variable',

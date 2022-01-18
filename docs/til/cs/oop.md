@@ -4,4 +4,9 @@
 객체지향이란 객체에 필요한 것을 추상화시키고, 독립적인 객체들로 프로그램을 구현하는 프로그램 패러다임이다.
 객체 지향에서 상속은 핵심적인 개념이다. 상속은 불필요한 중복을 제거해주는데, 자바스크립트에서 상속을 구현하기 위해서는 프로토타입 프로퍼티를 사용해야 한다.
 
+- SRP (Single Responsibility Principle) : 단일 책임 원칙
+- OCP (Open-Closed Principle) : 개방 폐쇄 원칙
+- LSP (Liskov Substitution Principle) : 리스코프 치환 원칙
+- ISP (Interface Segragation Principle) : 인터페이스 분리 원칙
+- DIP (Dependency Inversion Principle) : 의존관계 역전 원칙
 

@@ -31,7 +31,8 @@ exports.CsList = [
   'cs/array',
   'cs/stack-queue',
   'cs/browser-rendering',
-  'cs/cookie-session-local'
+  'cs/cookie-session-local',
+  'cs/HTTP'
 ];
 
 exports.EtcList = [

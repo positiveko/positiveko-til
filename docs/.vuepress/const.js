@@ -1,4 +1,4 @@
-exports['2022List'] = ['2022/202201'];
+exports['2022List'] = ['2022/202202','2022/202201'];
 
 exports.ReactList = ['react/react', 'react/safari-border-radius'];
 
@@ -22,6 +22,7 @@ exports.JsTsList = [
   'js/declaration-definition',
   'js/two-dimensional-array',
   'js/prototype',
+  'js/built-in-obj',
   'js/type-of-events',
   'js/event-capturing-bubbling',
 ];

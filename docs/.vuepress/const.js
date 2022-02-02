@@ -1,4 +1,4 @@
-exports['2022List'] = ['2022/202202','2022/202201'];
+exports['2022List'] = ['2022/202202', '2022/202201'];
 
 exports.ReactList = ['react/react', 'react/safari-border-radius'];
 
@@ -15,6 +15,7 @@ exports.JsTsList = [
   'js/call-by-value',
   'js/closer',
   'js/variable',
+  'js/null-undefined',
   'js/function',
   'js/js',
   'js/interface-kick',
@@ -37,7 +38,7 @@ exports.CsList = [
   'cs/tcp-ip',
   'cs/restful',
   'cs/jwt',
-  'cs/cors'
+  'cs/cors',
 ];
 
 exports.EtcList = [

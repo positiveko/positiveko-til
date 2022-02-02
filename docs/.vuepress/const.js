@@ -35,7 +35,8 @@ exports.CsList = [
   'cs/cookie-session-local',
   'cs/HTTP',
   'cs/tcp-ip',
-  'cs/restful'
+  'cs/restful',
+  'cs/jwt'
 ];
 
 exports.EtcList = [

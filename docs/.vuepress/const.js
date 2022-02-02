@@ -36,7 +36,8 @@ exports.CsList = [
   'cs/HTTP',
   'cs/tcp-ip',
   'cs/restful',
-  'cs/jwt'
+  'cs/jwt',
+  'cs/cors'
 ];
 
 exports.EtcList = [

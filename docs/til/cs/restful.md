@@ -62,6 +62,15 @@ GET /getSth/delete/1
 DELETE /sth/1
 ```
 
+```
+GET /tickets - Retrieves a list of tickets
+GET /tickets/12 - Retrieves a specific ticket
+POST /tickets - Creates a new ticket
+PUT /tickets/12 - Updates ticket #12
+PATCH /tickets/12 - Partially updates ticket #12
+DELETE /tickets/12 - Deletes ticket #12
+```
+
 ## REST의 특징
 
 ### 1) Server-Client(서버-클라이언트 구조)
@@ -79,3 +88,6 @@ DELETE /sth/1
 ### 5) Uniform Interface(인터페이스 일관성)
 애플리케이션 요구 사항별로 다른 형식이 아닌, 표준화된 형식으로 정보를 전송할 수 있도록 구성 요소 간 통합된 인터페이스가 필요하다. REST를 처음으로 제시한 Roy Fielding은 이를 “REST 아키텍처 스타일을 다른 네트워크 기반 스타일과 차별화하는 핵심적인 기능”이라고 설명한다.
 
+
+#### References
+[Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)

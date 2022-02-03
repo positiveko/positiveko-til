@@ -142,4 +142,6 @@ module.exports = {
       },
     ],
   ],
+
+  plugins: [["sitemap", { hostname: "https://positiveko-til.vercel.app/" }]]
 };

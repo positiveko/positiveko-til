@@ -9,7 +9,7 @@
 ### 호스트 객체
 
 - ECMAScript 사양에 정의되어 있지 않지만 자바스크립트 실행 환경에서 추가로 제공하는 객체
-- 브라우저에서는 클라이언트 사이드 Web API(DOM, fetch, Canvas, SVG, Web Storage, Web Worker 등)를 호스트 객체로 제공
+- 브라우저에서는 클라이언트 사이드 Web API(BOM, DOM, fetch, Canvas, SVG, Web Storage, Web Worker 등)를 호스트 객체로 제공
 - Node.js 환경에서는 Node.js 고유의 API를 호스트로 제공
 
 ### 사용자 정의 객체

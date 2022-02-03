@@ -26,6 +26,7 @@ exports.JsTsList = [
   'js/built-in-obj',
   'js/type-of-events',
   'js/event-capturing-bubbling',
+  'js/throttling-debounce',
 ];
 
 exports.CsList = [

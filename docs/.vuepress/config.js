@@ -141,7 +141,12 @@ module.exports = {
         },
       },
     ],
+    ['sitemap', { hostname: 'https://positiveko-til.vercel.app/' }],
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'G-JEKX2ZEJDL' // UA-00000000-0
+      }
+    ]
   ],
-
-  plugins: [["sitemap", { hostname: "https://positiveko-til.vercel.app/" }]]
 };

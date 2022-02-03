@@ -5,6 +5,9 @@
 - 배포: Vercel
 
 ## Updates
+### 22.02.03
+- google analytics 적용
+- sitemap generator 추가
 ### 21.09.23
 - main 페이지 커스터마이징 및 메뉴 정리
 - vercel 배포

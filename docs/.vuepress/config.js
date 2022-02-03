@@ -59,6 +59,13 @@ module.exports = {
         content: '/assets/favicons/browserconfig.xml',
       },
     ],
+    [
+      'meta',
+      {
+        name: 'google-site-verification',
+        content: 'aixQJUSBaI6cn-DWfREP36rIT4LW_ZIVvMZ4ZO6fKTI',
+      },
+    ],
   ],
 
   /**
@@ -133,20 +140,14 @@ module.exports = {
     '@vuepress/plugin-medium-zoom',
     [
       '@vuepress/last-updated',
-      {
-        transformer: (timestamp, lang) => {
-          const moment = require('moment');
-          moment.locale(lang);
-          return moment(timestamp).fromNow();
-        },
-      },
+      { transformer: (timestamp) => new Date(timestamp).toISOString() },
     ],
     ['sitemap', { hostname: 'https://positiveko-til.vercel.app/' }],
     [
       '@vuepress/google-analytics',
       {
-        'ga': 'G-JEKX2ZEJDL' // UA-00000000-0
-      }
-    ]
+        ga: 'G-JEKX2ZEJDL', // UA-00000000-0
+      },
+    ],
   ],
 };

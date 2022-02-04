@@ -66,6 +66,20 @@ module.exports = {
         content: 'aixQJUSBaI6cn-DWfREP36rIT4LW_ZIVvMZ4ZO6fKTI',
       },
     ],
+    [
+      'script',
+      {
+        async: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-JEKX2ZEJDL',
+      },
+    ],
+    [
+      'script',
+      {},
+      [
+        "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-JEKX2ZEJDL');",
+      ],
+    ],
   ],
 
   /**
@@ -143,11 +157,5 @@ module.exports = {
       { transformer: (timestamp) => new Date(timestamp).toISOString() },
     ],
     ['sitemap', { hostname: 'https://positiveko-til.vercel.app/' }],
-    [
-      '@vuepress/google-analytics',
-      {
-        ga: 'G-JEKX2ZEJDL', // UA-00000000-0
-      },
-    ],
   ],
 };

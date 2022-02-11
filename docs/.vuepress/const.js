@@ -40,6 +40,7 @@ exports.CsList = [
   'cs/restful',
   'cs/jwt',
   'cs/cors',
+  'cs/dns'
 ];
 
 exports.EtcList = [

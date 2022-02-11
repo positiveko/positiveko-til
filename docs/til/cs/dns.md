@@ -35,5 +35,8 @@ DNS 쿼리는 웹사이트에 대한 IP 주소를 찾기 위해 여러 DNS 서�
    로컬 DNS 서버는 이제 naver.com DNS 서버에게 해당 url을 문의한다. 'www.naver.com'에 대한 IP 주소를 받는다.
 
 이러한 과정을 재귀적 질의, recursive query라고 하는 것이다.
+여기서 로컬 DNS는 전달받은 'www.naver.com'의 IP 주소를 캐싱하고 IP 주소 정보를 브라우저에게 전달한다. 드디어 브라우저가 해당 서버와 TCP 연결을 시작하게 된다.
 
-
+---
+#### reference
+[What is DNS](https://www.cloudflare.com/ko-kr/learning/dns/what-is-dns/)

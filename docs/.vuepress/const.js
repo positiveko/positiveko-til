@@ -36,11 +36,11 @@ exports.CsList = [
   'cs/browser-rendering',
   'cs/cookie-session-local',
   'cs/HTTP',
+  'cs/dns',
   'cs/tcp-ip',
   'cs/restful',
   'cs/jwt',
   'cs/cors',
-  'cs/dns'
 ];
 
 exports.EtcList = [

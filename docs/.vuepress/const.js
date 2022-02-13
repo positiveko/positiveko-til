@@ -12,6 +12,7 @@ exports.JsTsList = [
   'js/typescript-design-goals',
   'js/garbage-collecting',
   'js/iterable',
+  'js/immutable',
   'js/call-by-value',
   'js/closer',
   'js/variable',

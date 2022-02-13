@@ -33,6 +33,7 @@ exports.CsList = [
   'cs/hashtable',
   'cs/array',
   'cs/stack-queue',
+  'cs/enter-url',
   'cs/browser-rendering',
   'cs/cookie-session-local',
   'cs/HTTP',

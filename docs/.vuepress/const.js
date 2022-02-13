@@ -50,4 +50,5 @@ exports.EtcList = [
   'etc/clean-code',
   'etc/code-of-performance',
   'etc/refactoring',
+  'etc/s3-error'
 ];

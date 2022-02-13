@@ -37,6 +37,7 @@ exports.CsList = [
   'cs/browser-rendering',
   'cs/cookie-session-local',
   'cs/HTTP',
+  'cs/HTTPS',
   'cs/dns',
   'cs/tcp-ip',
   'cs/restful',

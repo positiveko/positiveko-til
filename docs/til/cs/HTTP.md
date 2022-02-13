@@ -6,6 +6,8 @@
 
 - 웹브라우저, 서버, 웹 애플리케이션이 HTML 파일을 주고받을 수 있도록 하는 소통 언어이자 방식이다.
 - Protocal (P in HTTP) is a communication rule between Client(browser) & Server.
+- 서로 다른 시스템들 사이에서 통신을 주고받게 하는 가장 기본적인 프로토콜
+- 서버에서 브라우저로 데이터를 전송하는 용도로 가장 많이 사용
 
 #### HyperText
 

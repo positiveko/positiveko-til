@@ -1,6 +1,10 @@
 exports['2022List'] = ['2022/202202', '2022/202201'];
 
-exports.ReactList = ['react/react', 'react/safari-border-radius'];
+exports.ReactList = [
+  'react/virtual-dom',
+  'react/react',
+  'react/safari-border-radius',
+];
 
 exports.ReactNativeList = [
   'react-native/react-native',
@@ -45,12 +49,12 @@ exports.CsList = [
   'cs/jwt',
   'cs/cors',
   'cs/ssr-csr-ssg',
-  'cs/oop'
+  'cs/oop',
 ];
 
 exports.EtcList = [
   'etc/clean-code',
   'etc/code-of-performance',
   'etc/refactoring',
-  'etc/s3-error'
+  'etc/s3-error',
 ];

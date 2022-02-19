@@ -79,7 +79,6 @@ const changeParams = (arr, elem) => {
 [참고](https://maxkim-j.github.io/posts/js-pure-function)
 
 ## OCP (Open-Closed Principle) : 개방 폐쇄 원칙
-
 ## LSP (Liskov Substitution Principle) : 리스코프 치환 원칙
 
 ## ISP (Interface Segragation Principle) : 인터페이스 분리 원칙

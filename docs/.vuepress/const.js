@@ -23,6 +23,7 @@ exports.JsTsList = [
   'js/null-undefined',
   'js/function',
   'js/js',
+  'js/promise',
   'js/interface-kick',
   'js/catch-error-type',
   'js/declaration-definition',

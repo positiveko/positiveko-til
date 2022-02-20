@@ -24,6 +24,8 @@ exports.JsTsList = [
   'js/function',
   'js/js',
   'js/promise',
+  'js/generator',
+  'js/async-await',
   'js/interface-kick',
   'js/catch-error-type',
   'js/declaration-definition',

@@ -28,7 +28,6 @@ exports.JsTsList = [
   'js/generator',
   'js/async-await',
   'js/interface-kick',
-  'js/catch-error-type',
   'js/declaration-definition',
   'js/two-dimensional-array',
   'js/prototype',
@@ -37,6 +36,7 @@ exports.JsTsList = [
   'js/event-capturing-bubbling',
   'js/throttling-debounce',
   'js/js',
+  'js/catch-error-type',
 ];
 
 exports.CsList = [
@@ -55,6 +55,7 @@ exports.CsList = [
   'cs/cors',
   'cs/ssr-csr-ssg',
   'cs/oop',
+  'cs/mvc',
 ];
 
 exports.EtcList = [

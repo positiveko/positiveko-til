@@ -18,11 +18,12 @@ exports.JsTsList = [
   'js/immutable',
   'js/iterable',
   'js/call-by-value',
+  'js/execution-context',
+  'js/this',
   'js/closer',
   'js/variable',
   'js/null-undefined',
   'js/function',
-  'js/js',
   'js/promise',
   'js/generator',
   'js/async-await',
@@ -35,6 +36,7 @@ exports.JsTsList = [
   'js/type-of-events',
   'js/event-capturing-bubbling',
   'js/throttling-debounce',
+  'js/js',
 ];
 
 exports.CsList = [
@@ -60,5 +62,5 @@ exports.EtcList = [
   'etc/code-of-performance',
   'etc/refactoring',
   'etc/s3-error',
-  'etc/webpack'
+  'etc/webpack',
 ];

@@ -3,11 +3,11 @@ home: true
 heroImage: /assets/images/til-logo-512.png
 tagline: 배운 것을 짧게 기록합니다
 actionText: ✨ START ✨
-actionLink: /til/2022/202202.html
+actionLink: /til/2022/202203.html
 features:
   - title: TIL
     details: 🌊 Today I Learned 오늘 배운 내용을 짧게 기록합니다
-    link: /til/2022/202202.html
+    link: /til/2022/202203.html
   - title: React
     details: 🔑 React.js 문제 해결 사례와 도움이 되었던 내용을 정리합니다
     link: /til/react/react.html

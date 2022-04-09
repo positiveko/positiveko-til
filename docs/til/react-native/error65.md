@@ -36,3 +36,4 @@ old dependencies들이 담긴 파일이고, 마찬가지로 pod install을 하�
 프로젝트 루트 폴더에서 `npx pod-install ios`를 하거나 ios 폴더로 들어가 `pod install`을 해준다.
 위에서 캐시들을 모두 삭제했기 때문에 현재 패키지에 맞는 pod files가 다운로드되고,
 .xcodeworkspace도 재생성된다.
+

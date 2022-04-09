@@ -10,7 +10,8 @@ exports.ReactNativeList = [
   'react-native/react-native',
   'react-native/error65',
   'react-native/flatlist-render-item-type',
-  'react-native/react-native-template-typescript-error'
+  'react-native/react-native-template-typescript-error',
+  'react-native/flipper-error'
 ];
 
 exports.JsTsList = [

@@ -1,4 +1,9 @@
-exports['2022List'] = ['2022/202203', '2022/202202', '2022/202201'];
+exports['2022List'] = [
+  '2022/202205',
+  '2022/202203',
+  '2022/202202',
+  '2022/202201',
+];
 
 exports.ReactList = [
   'react/virtual-dom',
@@ -11,7 +16,7 @@ exports.ReactNativeList = [
   'react-native/error65',
   'react-native/flatlist-render-item-type',
   'react-native/react-native-template-typescript-error',
-  'react-native/flipper-error'
+  'react-native/flipper-error',
 ];
 
 exports.JsTsList = [

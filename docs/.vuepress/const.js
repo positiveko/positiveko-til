@@ -1,4 +1,5 @@
 exports['2022List'] = [
+  '2022/202211',
   '2022/202205',
   '2022/202203',
   '2022/202202',
@@ -71,4 +72,5 @@ exports.EtcList = [
   'etc/refactoring',
   'etc/s3-error',
   'etc/webpack',
+  'etc/monorepo'
 ];

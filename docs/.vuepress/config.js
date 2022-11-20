@@ -95,7 +95,7 @@ module.exports = {
     nav: [
       {
         text: 'TIL',
-        link: '/til/2022/202205',
+        link: '/til/2022/202211',
       },
       {
         text: 'About Me',

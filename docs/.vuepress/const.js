@@ -71,6 +71,7 @@ exports.EtcList = [
   'etc/code-of-performance',
   'etc/refactoring',
   'etc/s3-error',
+  'etc/gitignore-error',
   'etc/webpack',
-  'etc/monorepo'
+  'etc/monorepo',
 ];

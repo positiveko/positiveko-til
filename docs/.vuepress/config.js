@@ -95,7 +95,7 @@ module.exports = {
     nav: [
       {
         text: 'TIL',
-        link: '/til/2022/202211',
+        link: '/til/2023/202305',
       },
       {
         text: 'About Me',
@@ -112,6 +112,11 @@ module.exports = {
     ],
     sidebar: {
       '/til/': [
+        {
+          title: '2023',
+          collapsable: true,
+          children: CONST['2023List'],
+        },
         {
           title: '2022',
           collapsable: true,
